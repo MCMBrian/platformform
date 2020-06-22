@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body  style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size:small">
+    <h1>Dairy Platform Replacement Form</h1>
+        <form id='rollerid_form' class="form" method='post' action='' >
+            <p>Dairy Farm Name:* &emsp;<input type='text' name='farm_Name' required /></p>
+            <p>Farm Address:*  &emsp;<input type='text' name='farm_Address' required/></p>
+            <p>Contact Name:  &emsp;<input type="text" name="contact_Name"  /></p>
+            <p>Contact Number:  &emsp;<input type="number" name="contact_Number"  /></p>
+            <p>Dairy Number:*  &emsp;<input type="number" name="dairy_Number"  required/></p>
+            <p>Job N&#176;:  &emsp;<input type="number" name="job_Number"  /></p>
+            <p>Order N&#176;:  &emsp;<input type="number" name="order_Number"  /></p>
+            <br> 
+            <p>Platform Make: &emsp;<select name="type">
+                    <option value="Waikato">Waikato</option>
+                    <option value="Galick">Galick & Dispatch</option>
+                    <option value="DEG">DEG</option>
+                </select></p>
+            <p>Platform Radius*: &emsp;<input type="number" name="radius"  required/></p>
+            <p>Shed Bail*: &emsp;<input type="number" name="bails" required/></p>
+            <p>N&#176; Rollers*: &emsp;<input type="number" name="rollers"  /></p>
+            <p>Bearing Type: &emsp;<input type="text" name="bearing_Type"  /></p>     
+            <br>
+            <p>Dia1*: <input type="number" name="dial1" required/></p>
+            <p>Dia2*: <input type="number" name="dia2"  required/></p>
+            <p>Pin Dia*: <input type="number" name="pin" required/></p>
+            <p>Width: <input type="number" name="width"  /></p>
+            <p>N&#176; of Bearings: <input type="number" name="nearing_Number"  /></p>
+            <br>
+            <p>Cond. of Drive Wheels: <input type="text" name="drivewheel_Cond"  /></p>
+            <p>Cond. of I-Beam: <input type="text" name="ibeam_Cond"  /></p>
+            <p>Cond. of Rollers: <input type="text" name="roller_Cond"  /></p>
+            <br>
+            <p>Platform Requires:</p>
+                <p><input type="checkbox" name="requires" value="enviro"/>Enviro Clean &emsp;
+                    <input type="checkbox" name="requires" value="oil" />Platform Oil &emsp;
+                    <input type="checkbox" name="requires" value="oiler"/>Platform Oiler    
+                </p>
+            <p>Notes:<br>
+                <textarea name="notes" rows="7" cols="30"></textarea>
+            <p>Email*: &emsp;<input type="text" name="email address" required/></p>
+            <p><input type='submit' name='Submit' value='Submit' /></p>
+         </form>
+
+
+         <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>
